@@ -1,6 +1,6 @@
 import Mongoose from "mongoose";
 
-const dbUrl = "mongodb+srv://admin:11182203gjc@cluster0.g5rfvk1.mongodb.net/";
+const dbUrl = "mongodb+srv://admin:<password>@cluster0.g5rfvk1.mongodb.net/";
 
 Mongoose.connect(dbUrl)
 	.then(() => {
