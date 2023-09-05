@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"buildCommand": "prisma generate && prisma migrate deploy && turbo run build",
+	"buildCommand": "prisma generate && prisma migrate deploy && tsup src/index.ts --format cjs",
 	"builds": [
 		{
 			"src": "src/index.ts",
